@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+input {
+  margin-top: 25px;
+  width: 450px;
+  height: 40px;
+  padding: 7px 14px 9px;
+  font-size: 12px;
+}
+
+.gallery img {
+  margin: 25px;
+}
+
+.lightboxOverlay {
+  opacity: 0.92;
+}
+
+.lb-dataContainer {
+  margin-top: 60px;
+  max-width: 600px;
+}
+
+.lb-data .lb-caption {
+  font-size: 15px;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev {
+  opacity: 1;
+}
